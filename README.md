@@ -1,5 +1,5 @@
 # Sprocket Central Pty Ltd company Customers Recommendation project KPMG virtual internship
-# ![](/Images/sprocket_central.png)
+# ![](/notebooks/sprocket_central.png)
 
 
 This project is a part of a virtual internship from KPMG Company
