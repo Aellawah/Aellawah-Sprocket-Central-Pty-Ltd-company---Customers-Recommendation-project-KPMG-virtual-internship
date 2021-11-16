@@ -13,5 +13,7 @@ The project is divided into Three notebook , the client provided us with three d
 * Used the created model on a new customers dataset with similar features that predicted what type each customer would be 
 
 # Code and Resources Used
+
 **Python Version:3.7**
+
 **Packages:Pandas,numpy,sklearn,matplotlib,seaborn**
