@@ -1,9 +1,9 @@
-# Sprocket Central Pty Ltd company Customers Recommendation project KPMG virtual internship
+# Sprocket Central Pty Ltd company Customers Recommendation project KPMG virtual internship: Project Overview
 # ![](/notebooks/sprocket_central.png)
 
 
 This project is a part of a virtual internship from KPMG Company
-Project overview
+
 
 Sprocket Central Pty Ltd, a medium size bikes & cycling accessories organisation which has a large dataset relating to its customers, but their team is unsure how to effectively analyse it to help optimise its marketing strategy.
 
