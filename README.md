@@ -3,10 +3,10 @@
 
 
 
-Sprocket Central Pty Ltd, a medium size bikes & cycling accessories organisation which has a large dataset relating to its customers, but their team is unsure how to effectively analyse it to help optimise its marketing strategy, the client provided us with three different datasets it's customers transactions,customers demographics and customers addresses
+Sprocket Central Pty Ltd, a medium size bikes & cycling accessories organisation which has a large dataset relating to its customers, but their team is unsure how to effectively analyse it to help optimise its marketing strategy, the client provided us with three different datasets it's customers transactions,customers demographics and customers addresses, new potential customers dataset
+in this project i have managed to:
 
-
-* Analysed the customers and reveal some important insights and used the RFM segmentation to segment customers into four different segments (Platinum,Gold,Silver,Bronze)
+* Analyse the customers and reveal some important insights and used the RFM segmentation to segment customers into four different segments (Platinum,Gold,Silver,Bronze)
 
 * Created a model that used the existent customers features to train a Classification model (with 99% accuracy)
 
