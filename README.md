@@ -1,4 +1,4 @@
-# Sprocket Central Pty Ltd company Customers Recommendation project KPMG virtual internship: Project Overview
+# Sprocket Central Pty Ltd company Customers Classification project - KPMG virtual internship: Project Overview
 # ![](/notebooks/sprocket_central.png)
 
 
