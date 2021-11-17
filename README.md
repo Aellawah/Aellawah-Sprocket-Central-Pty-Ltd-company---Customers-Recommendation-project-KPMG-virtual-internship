@@ -21,7 +21,7 @@ In this project i have managed to:
 
 
 # Data Cleaning:
-#
+
 The client as i mentioned has provided us with three datasets at the beginning (customers transactions,customers demographics,customers addresses) which i has to clean before start analyzing it for trends, i made the following changes:
 
 # Customers Transactions Dataset
@@ -45,7 +45,7 @@ The client as i mentioned has provided us with three datasets at the beginning (
 
 
 # EDA & RFM analysis:
-#
+Then i joined the three data sets together into one big dataset and conducted an Exploratory data analysis on them and found the following insights.
 
 Univariate Analysis:
 
@@ -60,11 +60,6 @@ Univariate Analysis:
 9. Distribution of orders between men and women are almost the same , 51% of our orders are from women and 49% are from men.
 10. Most of our customers work at manufacturing industry.
 
-Unusual distributions:
-
-1. The Age had some outliers that we removed.
-2. Standard cost had some outliers that we removed.
-
 Bivariate Analysis:
 
 1. Women who owns a car buy more bikes than women who don't and Men who do not own a car buy more than Men who do.
@@ -78,13 +73,22 @@ Mulitvariate distributions:
 2. Manufacturing industry produced more revenue than other industries by male customers.
 3. There are no strong correlations among numerical data.
 
+
+Unusual distributions:
+
+1. The Age had some outliers that we removed.
+2. Standard cost had some outliers that we removed.
+
 RFM Anlaysis:
 
-* I have conducted a RFM segmentation and segmented customers into four different segments (Platinum,Gold,Silver,Bronze)
+* I have conducted a RFM(Frequency,Monetary,Recency) segmentation and segmented customers into four different segments (Platinum,Gold,Silver,Bronze)
+
+As we can see there is a relation between Frequency and Monetary
+![download](https://user-images.githubusercontent.com/67180181/142139006-847e3382-9557-4132-9e14-a88185a97459.png)
 
 
 # Model Building:
-#
+
 * First i selected specific features to use in training the model, then i converted the categorical features into binary format (One Hot encoding for the nomial categorical variables & Label encoding for the ordinal categorical variables)
 * I used a DecisionTreeClassifier & Random Forest classifier which were very useful for this kind of data, both of them gave me a 99% accuracy 
 * I used the model on the (new customers dataset) provided by the company to precit what is the type of each new customer would be
