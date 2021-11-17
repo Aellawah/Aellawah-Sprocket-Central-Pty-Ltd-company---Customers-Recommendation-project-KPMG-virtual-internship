@@ -3,7 +3,7 @@
 
 
 
-Sprocket Central Pty Ltd, a medium size bikes & cycling accessories organisation which has a large dataset relating to its customers, but their team is unsure how to effectively analyse it to help optimise its marketing strategy, the client provided me with three different datasets it's customers transactions,customers demographics and customers addresses, new potential customers dataset.
+Sprocket Central Pty Ltd, a medium size bikes & cycling accessories organisation which has a large dataset relating to its customers, but their team is unsure how to effectively analyse it to help optimise its marketing strategy, the client provided me with four different datasets it's customers transactions,customers demographics and customers addresses, new potential customers dataset.
 
 In this project i have managed to:
 
