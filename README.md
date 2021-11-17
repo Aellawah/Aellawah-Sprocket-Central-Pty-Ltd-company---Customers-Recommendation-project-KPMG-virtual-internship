@@ -44,7 +44,7 @@ The client as i mentioned has provided me with three datasets at the beginning (
 * Removed the Country column which represented one value only (Australia) since it will not be useful in my analysis nor in my ML model
 
 
-# EDA & RFM analysis:
+# EDA analysis:
 Then i joined the three data sets together into one big dataset and conducted an Exploratory data analysis on them and found the following insights
 
 Univariate Analysis:
@@ -79,15 +79,15 @@ Unusual distributions:
 1. The Age had some outliers that we removed.
 2. Standard cost had some outliers that we removed.
 
-After finishing EDA i moved on to the RFM Analysis:
+
+# RFM analysis
+
+* I have conducted a RFM Model and segmented customers into four different segments (Platinum,Gold,Silver,Bronze)
 
 * The RFM model is based on three quantitative factors:
-
 - Recency: How recently a customer has made a purchase
 - Frequency: How often a customer makes a purchase
 - Monetary Value: How much money a customer spends on purchases
-- 
-* I have conducted a RFM Model and segmented customers into four different segments (Platinum,Gold,Silver,Bronze)
 
 
 As we can see there is a +ve relationship between Frequency and Monetary which means that our data is consistant 
