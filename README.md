@@ -18,3 +18,5 @@ In this project i have managed to:
 **Python Version:** 3.7
 
 **Packages:** Pandas,numpy,sklearn,matplotlib,seaborn
+#
+Data Cleaning
