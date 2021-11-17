@@ -11,7 +11,7 @@ In this project i have managed to:
 
 * Created a model that used the existent customers features to train a Classification model (with 99% accuracy)
 
-* Used the created model on a new customers dataset with similar features that predicted what type each customer would be 
+* Used the created model on a new customers dataset with similar features that predicted what type each new customer would be 
 
 # Code and Resources Used
 
@@ -22,7 +22,7 @@ In this project i have managed to:
 
 # Data Cleaning:
 
-The client as i mentioned has provided us with three datasets at the beginning (customers transactions,customers demographics,customers addresses) which i has to clean before start analyzing it for trends, i made the following changes:
+The client as i mentioned has provided me with three datasets at the beginning (customers transactions,customers demographics,customers addresses) which i has to clean before start analyzing it for trends, i made the following changes:
 
 # Customers Transactions Dataset
 
@@ -45,7 +45,7 @@ The client as i mentioned has provided us with three datasets at the beginning (
 
 
 # EDA & RFM analysis:
-Then i joined the three data sets together into one big dataset and conducted an Exploratory data analysis on them and found the following insights.
+Then i joined the three data sets together into one big dataset and conducted an Exploratory data analysis on them and found the following insights
 
 Univariate Analysis:
 
@@ -79,20 +79,21 @@ Unusual distributions:
 1. The Age had some outliers that we removed.
 2. Standard cost had some outliers that we removed.
 
-RFM Anlaysis:
-
-* I have conducted a RFM(Frequency,Monetary,Recency) segmentation and segmented customers into four different segments (Platinum,Gold,Silver,Bronze)
+After finishing EDA i moved on to the RFM Analysis:
 
 * The RFM model is based on three quantitative factors:
 
 - Recency: How recently a customer has made a purchase
 - Frequency: How often a customer makes a purchase
 - Monetary Value: How much money a customer spends on purchases
+- 
+* I have conducted a RFM Model and segmented customers into four different segments (Platinum,Gold,Silver,Bronze)
 
-As we can see there is a +ve relation between Frequency and Monetary which means that our data is consistant 
+
+As we can see there is a +ve relationship between Frequency and Monetary which means that our data is consistant 
 ![download](https://user-images.githubusercontent.com/67180181/142139006-847e3382-9557-4132-9e14-a88185a97459.png)
 
-As we can see there is a -ve relation between Recency and Monetary , which shows that the higher the period is for the recent purchase of a customer the lower the money value he flows in the company
+There is also a -ve relationship between Recency and Monetary , which shows that the higher the period is for the recent purchase of a customer the lower the money value he flows in the company
 ![download (1)](https://user-images.githubusercontent.com/67180181/142139168-9921e6f5-9451-46eb-bbec-a584bb625516.png)
 
 # Model Building:
