@@ -45,7 +45,7 @@ The client as i mentioned has provided me with three datasets at the beginning (
 
 
 # EDA analysis:
-Then i joined the three data sets together into one big dataset and conducted an Exploratory data analysis on them and found the following insights
+After finishing Data cleaning i joined the three data sets together into one big dataset and conducted an Exploratory data analysis on them and found the following insights
 
 Univariate Analysis:
 
@@ -90,11 +90,11 @@ Unusual distributions:
 3. Monetary Value: How much money a customer spends on purchases
 
 
-As we can see there is a +ve relationship between Frequency and Monetary which means that our data is consistant
+*  As we can see there is a +ve relationship between Frequency and Monetary which means that our data is consistant
 
 ![download](https://user-images.githubusercontent.com/67180181/142139006-847e3382-9557-4132-9e14-a88185a97459.png)
 
-There is also a -ve relationship between Recency and Monetary , which shows that the higher the period is for the recent purchase of a customer the lower the money value he flows in the company
+* There is also a -ve relationship between Recency and Monetary , which shows that the higher the period is for the recent purchase of a customer the lower the money value he flows in the company
 
 ![download (1)](https://user-images.githubusercontent.com/67180181/142139168-9921e6f5-9451-46eb-bbec-a584bb625516.png)
 
